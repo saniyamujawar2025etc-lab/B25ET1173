@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+// Function to find maximum of two integers
+int maximum(int a, int b) {
+    return (a > b) ? a : b;
+}
+
+// Function to find maximum of three integers
+int maximum(int a, int b, int c) {
+    return maximum(maximum(a, b), c);
+}
+
+int main() {
+    int a, b, c;
+
+    cout << "Enter two integers: ";
+    cin >> a >> b;
+    cout << "Maximum = " << maximum(a, b) << endl;
+
+    cout << "\nEnter three integers: ";
+    cin >> a >> b >> c;
+    cout << "Maximum = " << maximum(a, b, c) << endl;
+
+    return 0;
+}
