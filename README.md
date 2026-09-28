@@ -7,4 +7,6 @@ Assignment 3 output:
 Assignment 4 Output:
 <img width="338" height="214" alt="image" src="https://github.com/user-attachments/assets/16e109b5-7fbf-4dd3-926d-04755ea248cf" />
 Assignment 5 Output:
+<img width="342" height="174" alt="image" src="https://github.com/user-attachments/assets/c020ceff-1cf8-4827-9f46-5580c115a1e9" />
+Assignment 7 Output:
 
