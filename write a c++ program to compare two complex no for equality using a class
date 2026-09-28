@@ -1,35 +1,45 @@
 #include <iostream>
 using namespace std;
 
+// Class to represent a complex number
 class Complex {
-    int real, imag;
+    int real, imag; // Variables to store real and imaginary parts
 
 public:
+
+    // Function to accept a complex number from the user
     void input() {
         cout << "Enter real part: ";
         cin >> real;
+
         cout << "Enter imaginary part: ";
         cin >> imag;
     }
 
+    // Function to compare two complex numbers
     bool isEqual(Complex c) {
+        // Return true if both real and imaginary parts are equal
         return (real == c.real && imag == c.imag);
     }
 };
 
 int main() {
+    // Create two objects of the Complex class
     Complex c1, c2;
 
+    // Input the first complex number
     cout << "Enter first complex number:\n";
     c1.input();
 
+    // Input the second complex number
     cout << "\nEnter second complex number:\n";
     c2.input();
 
+    // Compare the two complex numbers
     if (c1.isEqual(c2))
         cout << "\nBoth complex numbers are equal.";
     else
         cout << "\nComplex numbers are not equal.";
 
-    return 0;
+    return 0; // End the program
 }
