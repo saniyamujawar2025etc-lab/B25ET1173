@@ -1,31 +1,42 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+
+// Class named String
 class String {
-    char str[200];
+    char str[200]; // Character array to store the sentence
+
 public:
+
     // Constructor
     String() {
-        str[0] = '\0';
+        str[0] = '\0'; // Initialize the string as empty
     }
-    // Accept a complete sentence
+
+    // Function to accept a complete sentence
     void Accept() {
         cout << "Enter a sentence: ";
-        cin.getline(str, 200);
+        cin.getline(str, 200); // Read the entire sentence including spaces
     }
-    // Display the sentence
+
+    // Function to display the sentence
     void Display() {
         cout << "The sentence is: " << str << endl;
     }
+
     // Destructor
     ~String() {
         cout << "String object destroyed." << endl;
     }
 };
+
 int main() {
-    String s;
-    s.Accept();
-    s.Display();
-    return 0;
+    String s;       // Create an object of the String class
+
+    s.Accept();     // Call Accept() to take input
+    s.Display();    // Call Display() to display the sentence
+
+    return 0;       // End the program
 }
+
 
