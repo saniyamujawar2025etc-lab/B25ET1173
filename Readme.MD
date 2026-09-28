@@ -16,3 +16,5 @@
 ## Assignment 6 Output
 ![Assignment 6 Output](https://github.com/user-attachments/assets/11e4d969-b6d0-405c-85ee-44ba780d9765)
 
+## Assignment 7 Output
+https://github.com/saniyamujawar2025etc-lab/B25ET1173/blob/main/Screenshot%202026-09-28%20111107.png?raw=true
