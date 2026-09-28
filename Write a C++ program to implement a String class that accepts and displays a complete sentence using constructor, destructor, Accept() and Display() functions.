@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+class String {
+    char str[200];
+public:
+    // Constructor
+    String() {
+        str[0] = '\0';
+    }
+    // Accept a complete sentence
+    void Accept() {
+        cout << "Enter a sentence: ";
+        cin.getline(str, 200);
+    }
+    // Display the sentence
+    void Display() {
+        cout << "The sentence is: " << str << endl;
+    }
+    // Destructor
+    ~String() {
+        cout << "String object destroyed." << endl;
+    }
+};
+int main() {
+    String s;
+    s.Accept();
+    s.Display();
+    return 0;
+}
+
