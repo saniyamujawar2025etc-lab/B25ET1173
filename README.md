@@ -17,3 +17,7 @@ Assignment 4 output :
 Assignment 5 output :
 
 <img width="353" height="186" alt="image" src="https://github.com/user-attachments/assets/7e96f2d0-6f57-4202-be2d-6ece2a6c34d7" />
+
+Assignment 6 output :
+
+<img width="394" height="115" alt="image" src="https://github.com/user-attachments/assets/11e4d969-b6d0-405c-85ee-44ba780d9765" />
