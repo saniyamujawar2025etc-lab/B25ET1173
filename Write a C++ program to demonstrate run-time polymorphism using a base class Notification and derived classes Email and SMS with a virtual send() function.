@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+// Base class
+class Notification
+{
+public:
+    // Virtual function
+    virtual void send()
+    {
+        cout << "Sending a notification" << endl;
+    }
+};
+
+// Derived class Email
+class Email : public Notification
+{
+public:
+    // Overriding send() function
+    void send() override
+    {
+        cout << "Sending Email Notification" << endl;
+    }
+};
+
+// Derived class SMS
+class SMS : public Notification
+{
+public:
+    // Overriding send() function
+    void send() override
+    {
+        cout << "Sending SMS Notification" << endl;
+    }
+};
+
+int main()
+{
+    // Base class pointer
+    Notification *n;
+
+    // Object of Email class
+    Email e;
+    n = &e;
+    n->send();
+
+    // Object of SMS class
+    SMS s;
+    n = &s;
+    n->send();
+
+    return 0;
+}
