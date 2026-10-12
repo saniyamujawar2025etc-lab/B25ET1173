@@ -34,4 +34,9 @@ Assignment 9 Output:
 
 <img width="351" height="135" alt="image" src="https://github.com/user-attachments/assets/828d2bbe-f4e6-4397-bb65-8ae627101c21" />
 
+Assignment 10 Output:
+
+<img width="636" height="135" alt="image" src="https://github.com/user-attachments/assets/729ccf97-924e-45b2-8dec-20da977c45ba" />
+
+
 
