@@ -1,0 +1,75 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Class to store basic employee information
+class Employee
+{
+protected:
+    int emp_id;
+    string name;
+
+public:
+    // Function to accept employee details
+    void getEmployee()
+    {
+        cout << "Enter Employee ID: ";
+        cin >> emp_id;
+
+        cout << "Enter Employee Name: ";
+        cin >> name;
+    }
+};
+
+// Class to store qualification information
+class Qualification
+{
+protected:
+    string qualification;
+    string university;
+
+public:
+    // Function to accept qualification details
+    void getQualification()
+    {
+        cout << "Enter Qualification: ";
+        cin >> qualification;
+
+        cout << "Enter University: ";
+        cin >> university;
+    }
+};
+
+// Multiple inheritance from Employee and Qualification
+class Profile : public Employee, public Qualification
+{
+public:
+    // Function to display educational profile
+    void display()
+    {
+        cout << "\n--- Employee Educational Profile ---" << endl;
+        cout << "Employee ID: " << emp_id << endl;
+        cout << "Employee Name: " << name << endl;
+        cout << "Qualification: " << qualification << endl;
+        cout << "University: " << university << endl;
+    }
+};
+
+// Main function
+int main()
+{
+    // Create object of derived class
+    Profile p;
+
+    // Accept employee information
+    p.getEmployee();
+
+    // Accept qualification information
+    p.getQualification();
+
+    // Display employee educational profile
+    p.display();
+
+    return 0;
+}
