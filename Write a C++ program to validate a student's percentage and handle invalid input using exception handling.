@@ -1,1 +1,32 @@
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    float percentage;
+
+    try {
+        // Ask the user to enter the student's percentage
+        cout << "Enter student's percentage: ";
+        cin >> percentage;
+
+        // Check whether the input is numeric
+        if (cin.fail()) {
+            throw "Invalid input! Please enter a numeric value.";
+        }
+
+        // Check whether the percentage is within the valid range
+        if (percentage < 0 || percentage > 100) {
+            throw "Invalid percentage! It must be between 0 and 100.";
+        }
+
+        // Display the percentage if it is valid
+        cout << "Valid percentage: " << percentage << "%" << endl;
+    }
+    catch (const char* msg) {
+        // Catch the exception and display the error message
+        cout << "Exception caught: " << msg << endl;
+    }
+
+    return 0; // End the program successfully
+}
