@@ -44,5 +44,8 @@ Assignment 11 Output:
 
 Assignment 12 Output:
 
+<img width="403" height="164" alt="image" src="https://github.com/user-attachments/assets/48574eb1-52b7-4b0f-af98-761527a9ec1b" />
+
+
 
 
