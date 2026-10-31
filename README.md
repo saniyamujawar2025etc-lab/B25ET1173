@@ -38,5 +38,11 @@ Assignment 10 Output:
 
 <img width="636" height="135" alt="image" src="https://github.com/user-attachments/assets/729ccf97-924e-45b2-8dec-20da977c45ba" />
 
+Assignment 11 Output:
+
+<img width="287" height="235" alt="image" src="https://github.com/user-attachments/assets/4c552597-3c11-4287-911a-32fb33dc96c9" />
+
+Assignment 12 Output:
+
 
 
